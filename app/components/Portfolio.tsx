@@ -80,7 +80,7 @@ export default function Portfolio() {
                         <div className="flex flex-col gap-4 max-w-2xl">
                             <div className="flex items-center gap-2">
                                 <span className="w-8 h-[2px] bg-primary"></span>
-                                <span className="text-sm font-bold uppercase tracking-widest text-[#8d855e]">
+                                <span className="text-sm font-bold uppercase tracking-widest text-slate-600">
                                     Karya Pilihan
                                 </span>
                             </div>
@@ -90,7 +90,7 @@ export default function Portfolio() {
                                     Digital
                                 </span>
                             </h2>
-                            <p className="text-[#8d855e] text-lg font-normal leading-relaxed mt-2 max-w-lg">
+                            <p className="text-slate-600 text-lg font-normal leading-relaxed mt-2 max-w-lg">
                                 Pilihan solusi perangkat lunak kami yang paling berdampak bagi
                                 klien global, dengan fokus pada skalabilitas dan pengalaman
                                 pengguna.

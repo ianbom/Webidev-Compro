@@ -23,7 +23,7 @@ export default function AboutHero() {
                                     <span className="absolute bottom-2 left-0 w-full h-4 bg-primary/40 -z-10 rounded-sm"></span>
                                 </span>
                             </h1>
-                            <p className="text-lg sm:text-xl text-text-muted leading-relaxed max-w-lg">
+                            <p className="text-lg sm:text-xl text-slate leading-relaxed max-w-lg">
                                 Kami adalah tim inovator, pengembang, dan pencipta yang
                                 berdedikasi untuk mengubah ide menjadi solusi perangkat lunak yang
                                 tangguh. Merancang pengalaman digital dengan presisi dan hasrat

@@ -57,7 +57,7 @@ export default function Services() {
                             <h2 className="text-3xl font-bold tracking-tight text-text-main sm:text-4xl">
                                 Solusi Perangkat Lunak Terpadu
                             </h2>
-                            <p className="text-base text-text-muted max-w-2xl">
+                            <p className="text-base text-slate-600 max-w-2xl">
                                 Keahlian kami mencakup seluruh siklus hidup produk digital.
                                 Kami menghidupkan ide Anda dengan rekayasa presisi dan
                                 desain yang matang.

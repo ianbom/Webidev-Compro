@@ -92,7 +92,7 @@ export default function DetailOverview() {
                             <span className="w-8 h-1 bg-primary rounded-full block"></span>
                             Tantangan
                         </h2>
-                        <p className="text-text-muted text-base leading-relaxed mb-6">
+                        <p className="text-slate text-base leading-relaxed mb-6">
                             Aplikasi seluler FinanceCo yang ada menderita hutang teknis yang
                             signifikan dan antarmuka pengguna yang ketinggalan zaman yang
                             menyebabkan tingkat churn tinggi selama orientasi. Pengguna
@@ -101,7 +101,7 @@ export default function DetailOverview() {
                             bahasa visual sambil memastikan backend dapat menangani data
                             transaksi real-time dengan aman dan cepat.
                         </p>
-                        <p className="text-text-muted text-base leading-relaxed">
+                        <p className="text-slate text-base leading-relaxed">
                             Kami perlu membuat solusi yang menyeimbangkan kepatuhan terhadap
                             peraturan dengan pengalaman pengguna yang tanpa hambatan, mengurangi
                             "waktu untuk mendapatkan nilai" bagi pelanggan baru.
@@ -113,7 +113,7 @@ export default function DetailOverview() {
                             <span className="w-8 h-1 bg-accent-blue rounded-full block"></span>
                             Solusi
                         </h2>
-                        <p className="text-text-muted text-base leading-relaxed mb-6">
+                        <p className="text-slate text-base leading-relaxed mb-6">
                             Kami mendekati desain ulang dengan pola pikir "mobile-first".
                             Dengan menyederhanakan arsitektur informasi, kami mengurangi
                             jumlah ketukan yang diperlukan untuk melakukan tindakan utama—seperti
@@ -128,7 +128,7 @@ export default function DetailOverview() {
                                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuCP-c5tVE81KVCctfgTnVV9EE2QuAV9tCOAB2On1Eroq41j3XxHkLFctjvhfFg7_iPVhUXYhGC2PaubxlO7S0ZXQcJ0fIPEAEpY3jwyxfzRIsI5dzHir4Scyynz8v0ECrkAaapAF3fUTj_0Ue9GZP9w2SnNH1hOXjQFVI7uUmXPVxbXxQD-dEhNrTb4h1ttaU1EaVLdt2sJhfkeimLPVES-wX11QR8kPpqkcrhMul5gG56AIcgg08mYgjuXV0hjc4oHdf6TdvhKjQ"
                             />
                         </div>
-                        <p className="text-text-muted text-base leading-relaxed">
+                        <p className="text-slate text-base leading-relaxed">
                             Di sisi teknis, kami memigrasikan monolit lama ke arsitektur
                             layanan mikro di AWS, yang memungkinkan penskalaan independen
                             mesin pemrosesan transaksi. Ini memastikan 99,99% uptime selama

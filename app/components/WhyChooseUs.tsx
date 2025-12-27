@@ -51,8 +51,8 @@ export default function WhyChooseUs() {
                             <span className="relative">Keunggulan Digital</span>
                         </span>
                     </h1>
-                    <p className="text-lg md:text-xl text-text-muted max-w-2xl mx-auto leading-relaxed">
-                        Kami tidak hanya menulis kode; kami membangun ekosistem digital
+                    <p className="text-lg md:text-xl text-slate max-w-2xl mx-auto leading-relaxed">
+                        Kami tidak hanya menulis kode, kami membangun ekosistem digital
                         yang tangguh dan skalabel yang disesuaikan dengan tujuan bisnis Anda.
                     </p>
                 </div>
@@ -100,7 +100,7 @@ export default function WhyChooseUs() {
                                     <h3 className="text-xl font-bold text-text-main leading-tight">
                                         {feature.title}
                                     </h3>
-                                    <p className="text-text-muted text-sm leading-relaxed">
+                                    <p className="text-slate text-sm leading-relaxed">
                                         {feature.description}
                                     </p>
                                 </div>

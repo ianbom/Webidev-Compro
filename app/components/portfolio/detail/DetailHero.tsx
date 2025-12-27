@@ -6,7 +6,7 @@ export default function DetailHero() {
                     <h1 className="text-text-main text-4xl lg:text-6xl font-black leading-tight tracking-tight">
                         Redesain Aplikasi Mobile FinTech
                     </h1>
-                    <p className="text-text-muted text-lg lg:text-xl font-normal leading-relaxed max-w-2xl">
+                    <p className="text-slate text-lg lg:text-xl font-normal leading-relaxed max-w-2xl">
                         Merevolusi manajemen keuangan pribadi melalui desain intuitif,
                         arsitektur keamanan yang kuat, dan pengalaman pengguna yang mulus.
                     </p>

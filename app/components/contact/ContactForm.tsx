@@ -43,8 +43,11 @@ export default function ContactForm() {
                     Layanan yang Dibutuhkan
                 </p>
                 <div className="relative">
-                    <select className="w-full rounded-lg text-text-main border border-gray-200 bg-white focus:border-primary focus:ring-1 focus:ring-primary h-12 px-4 pr-10 text-base appearance-none transition-all cursor-pointer">
-                        <option disabled selected value="">
+                    <select
+                        className="w-full rounded-lg text-text-main border border-gray-200 bg-white focus:border-primary focus:ring-1 focus:ring-primary h-12 px-4 pr-10 text-base appearance-none transition-all cursor-pointer"
+                        defaultValue=""
+                    >
+                        <option disabled value="">
                             Pilih layanan...
                         </option>
                         <option value="web">Pengembangan Website</option>

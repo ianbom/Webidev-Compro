@@ -82,7 +82,7 @@ export default function PortfolioComparison() {
                             <h3 className="text-xl font-bold text-text-main mb-2">
                                 Pendapatan Signifikan
                             </h3>
-                            <p className="text-text-muted leading-relaxed">
+                            <p className="text-slate leading-relaxed">
                                 Dengan mendigitalkan pelacakan inventaris dan penjualan, klien
                                 kami melihat peningkatan rata-rata{" "}
                                 <span className="font-bold text-text-main">50%</span> dalam
@@ -99,7 +99,7 @@ export default function PortfolioComparison() {
                             <h3 className="text-xl font-bold text-text-main mb-2">
                                 Alur Kerja Lebih Cepat
                             </h3>
-                            <p className="text-text-muted leading-relaxed">
+                            <p className="text-slate leading-relaxed">
                                 Pelaporan otomatis dan dasbor waktu nyata memangkas tugas
                                 administratif, menghasilkan{" "}
                                 <span className="font-bold text-text-main">
@@ -120,7 +120,7 @@ export default function PortfolioComparison() {
                             <h3 className="text-xl font-bold text-text-main mb-2">
                                 Kepuasan Pengguna
                             </h3>
-                            <p className="text-text-muted leading-relaxed">
+                            <p className="text-slate leading-relaxed">
                                 Desain UX/UI yang intuitif memastikan adopsi yang cepat. Kami
                                 secara konsisten mencapai{" "}
                                 <span className="font-bold text-text-main">

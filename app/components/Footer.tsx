@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -9,13 +10,17 @@ export default function Footer() {
                     <div className="flex flex-col space-y-5">
                         <div className="flex flex-col space-y-4">
                             <div className="flex items-center gap-2">
-                                <div className="size-9 bg-primary rounded-lg flex items-center justify-center text-footer-bg shadow-[0_0_15px_rgba(253,223,73,0.3)]">
-                                    <span className="material-symbols-outlined text-xl font-bold">
-                                        code
-                                    </span>
-                                </div>
-                                <h3 className="text-white tracking-tight text-2xl font-bold leading-tight">
-                                    WebIDev
+                                <Image
+                                    src="/favicon-webidev.png"
+                                    alt="WebIDev Logo"
+                                    width={48}
+                                    height={48}
+                                    className="h-12 w-auto object-contain"
+                                />
+                                <h3 className="tracking-tight text-2xl font-bold leading-tight">
+                                    <span className="text-blue-400">Web</span>
+                                    <span className="text-white">I</span>
+                                    <span className="text-primary">Dev</span>
                                 </h3>
                             </div>
                             <p className="text-slate-400 text-sm font-normal leading-relaxed pr-2">

@@ -91,7 +91,7 @@ export default function ServicesGrid() {
                         </svg>
                     </span>
                 </h1>
-                <p className="text-lg md:text-xl text-text-muted max-w-2xl mx-auto leading-relaxed">
+                <p className="text-lg md:text-xl text-slate max-w-2xl mx-auto leading-relaxed">
                     Memberdayakan pertumbuhan UMKM dengan layanan digital mutakhir yang
                     dirancang untuk kesuksesan, skalabilitas, dan pengalaman pengguna yang
                     mulus.
@@ -113,7 +113,7 @@ export default function ServicesGrid() {
                             <h3 className="text-xl font-bold text-text-main mb-3 group-hover:text-yellow-600 transition-colors">
                                 {service.title}
                             </h3>
-                            <p className="text-text-muted mb-6 text-sm leading-relaxed flex-grow">
+                            <p className="text-slate mb-6 text-sm leading-relaxed flex-grow">
                                 {service.description}
                             </p>
                             <ul className="space-y-3 mb-8">

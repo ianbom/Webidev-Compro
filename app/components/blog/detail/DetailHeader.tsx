@@ -46,7 +46,7 @@ export default function DetailHeader() {
                         <div className="flex items-center gap-2 text-text-muted text-sm mt-1">
                             <span>Kepala Arsitek</span>
                             <span>•</span>
-                            <span>12 Okt 2023</span>
+                            <span>12 Okt 2025</span>
                             <span>•</span>
                             <span className="flex items-center gap-1">
                                 <span className="material-symbols-outlined text-[16px]">

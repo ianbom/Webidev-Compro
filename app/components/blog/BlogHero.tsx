@@ -21,7 +21,7 @@ export default function BlogHero() {
                             </svg>
                         </span>
                     </h1>
-                    <p className="text-lg md:text-xl text-text-muted leading-relaxed">
+                    <p className="text-lg md:text-xl text-slate leading-relaxed">
                         Wawasan, pendalaman teknis, dan filosofi desain dari tim WebIDev.
                         Tetap update dengan tren terbaru dalam pengembangan perangkat lunak.
                     </p>

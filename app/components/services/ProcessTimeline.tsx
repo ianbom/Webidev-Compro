@@ -42,7 +42,7 @@ export default function ProcessTimeline() {
                     <h2 className="text-4xl md:text-5xl font-black tracking-tight text-text-main mb-4 max-w-2xl">
                         Proses Pengembangan Kami
                     </h2>
-                    <p className="text-text-muted text-lg max-w-2xl leading-relaxed">
+                    <p className="text-slate text-lg max-w-2xl leading-relaxed">
                         Kami mengikuti metodologi terstruktur dan gesit untuk memastikan
                         proyek Anda diselesaikan tepat waktu dan melebihi ekspektasi.
                     </p>
@@ -70,7 +70,7 @@ export default function ProcessTimeline() {
                             <h3 className="text-xl font-bold mb-2 text-text-main group-hover:text-blue-600 transition-colors">
                                 {step.title}
                             </h3>
-                            <p className="text-sm text-text-muted leading-relaxed">
+                            <p className="text-sm text-slate leading-relaxed">
                                 {step.description}
                             </p>
                         </div>
@@ -96,7 +96,7 @@ export default function ProcessTimeline() {
                                 <h3 className="text-lg font-bold text-text-main">
                                     {step.title}
                                 </h3>
-                                <p className="text-sm text-text-muted mt-1">
+                                <p className="text-sm text-slate mt-1">
                                     {step.description}
                                 </p>
                             </div>

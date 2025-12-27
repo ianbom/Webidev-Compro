@@ -14,9 +14,9 @@ export default function ContactInfo() {
                     <div>
                         <p className="text-sm font-bold text-text-main mb-1">Kantor Kami</p>
                         <p className="text-text-muted text-sm leading-relaxed">
-                            Jl. Teknologi No. 123, Kebayoran Baru
+                            Keputih, Sukolilo
                             <br />
-                            Jakarta Selatan, DKI Jakarta 12190
+                            Surabaya, Jawa Timur
                         </p>
                     </div>
                 </div>
@@ -33,9 +33,9 @@ export default function ContactInfo() {
                         </p>
                         <a
                             className="block text-text-muted text-sm hover:text-accent-blue transition-colors"
-                            href="tel:+6281234567890"
+                            href="tel:+6281913811966"
                         >
-                            +62 812-3456-7890 (WhatsApp)
+                            +62 819-1381-1966 (WhatsApp)
                         </a>
                         <a
                             className="block text-text-muted text-sm hover:text-accent-blue transition-colors"

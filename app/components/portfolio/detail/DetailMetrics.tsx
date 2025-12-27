@@ -4,7 +4,7 @@ export default function DetailMetrics() {
             <div className="max-w-7xl mx-auto px-6 lg:px-20">
                 <div className="flex flex-col gap-2 mb-10 text-center">
                     <h2 className="text-3xl font-bold text-text-main">Hasil Terukur</h2>
-                    <p className="text-text-muted">
+                    <p className="text-slate">
                         Indikator kinerja utama pasca peluncuran
                     </p>
                 </div>

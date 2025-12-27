@@ -101,7 +101,7 @@ export default function AboutStory() {
                         <div className="w-full md:w-[calc(50%-2rem)] order-2 md:order-3 p-6 bg-background-light border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
                             <div className="flex items-center gap-2 mb-2 text-primary-dark">
                                 <span className="material-symbols-outlined">public</span>
-                                <span className="font-bold">2023</span>
+                                <span className="font-bold">2025</span>
                             </div>
                             <h3 className="text-xl font-bold text-text-main mb-2">
                                 Menuju Global

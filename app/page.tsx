@@ -7,7 +7,8 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen overflow-x-hidden">
+    
+    <div className="flex flex-col min-h-screen overflow-x-hidden bg-linear-to-b from-blue-50/50 via-white to-white">
       <Header />
       <Hero />
       <Services />

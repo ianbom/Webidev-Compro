@@ -129,7 +129,7 @@ export default function PortfolioGrid() {
                                             {project.category}
                                         </span>
                                     </div>
-                                    <p className="text-sm text-text-muted">
+                                    <p className="text-sm text-slate">
                                         {project.description}
                                     </p>
                                 </div>

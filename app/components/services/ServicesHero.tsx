@@ -15,7 +15,7 @@ export default function ServicesHero() {
                             Layanan Kami
                         </h1>
                         <div className="mt-6 flex flex-col gap-4 border-l-4 border-primary pl-6">
-                            <p className="text-lg leading-relaxed text-text-muted md:text-xl">
+                            <p className="text-lg leading-relaxed text-slate md:text-xl">
                                 Mengubah ide menjadi realitas digital. Kami menyediakan solusi
                                 pengembangan perangkat lunak ujung-ke-ujung yang disesuaikan
                                 dengan tujuan bisnis Anda, memastikan skalabilitas dan performa.

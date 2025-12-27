@@ -19,9 +19,9 @@ export default function BlogDetailPage() {
             <Header />
 
             {/* Reading Progress Bar (Simulated) */}
-            <div className="fixed top-20 left-0 right-0 z-40 w-full h-1 bg-gray-100">
+            {/* <div className="fixed top-20 left-0 right-0 z-40 w-full h-1 bg-gray-100">
                 <div className="h-full bg-primary w-[35%] rounded-r-full"></div>
-            </div>
+            </div> */}
 
             <main className="flex-grow w-full pt-10 pb-20">
                 <div className="layout-container px-5 md:px-10 max-w-[960px] mx-auto w-full">
