@@ -1,26 +1,71 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #fddf49;
+  --color-background-light: #f8f8f5;
+  --color-background-dark: #23200f;
+
+  --color-text-main: #181710;
+  --color-text-muted: #8d855e;
+  --color-border-light: #e7e4da;
+  --color-card-light: #ffffff;
+  --color-accent-blue: #1e3a8a;
+  --color-primary-hover: #eac623;
+  --color-footer-bg: #0f172a;
+  --color-footer-card: #1e293b;
+
+  --font-display: Inter, sans-serif;
+  --font-outfit: Outfit, sans-serif;
+
+  --animate-float: float 6s ease-in-out infinite;
+
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground: #181710;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-display);
+}
+
+/* Force light mode styles even if system is dark, as per requirement */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #181710;
+  }
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom pattern for the hero background */
+.bg-dot-pattern {
+  background-image: radial-gradient(#cbd5e1 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
 }
